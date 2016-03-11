@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hangman/GameViewController.swift"
+            timestampString = "479348079.633103"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "GameViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hangman.GameViewController.x.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "Hangman"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/ios-decal-proj2/Hangman/Hangman/GameViewController.swift"
+                  timestampString = "479368665.173245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hangman.GameViewController.x.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "Hangman"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/ios-decal-proj2/Hangman/Hangman/GameViewController.swift"
+                  timestampString = "479368665.186255"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hangman.GameViewController.x.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "Hangman"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/ios-decal-proj2/Hangman/Hangman/GameViewController.swift"
+                  timestampString = "479368665.186464"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hangman.GameViewController.init (Hangman.GameViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Hangman.GameViewController"
+                  moduleName = "Hangman"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/ios-decal-proj2/Hangman/Hangman/GameViewController.swift"
+                  timestampString = "479368665.186652"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1570">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hangman.GameViewController.init (Hangman.GameViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Hangman.GameViewController&gt;"
+                  moduleName = "Hangman"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/ios-decal-proj2/Hangman/Hangman/GameViewController.swift"
+                  timestampString = "479368665.186837"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1458">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
