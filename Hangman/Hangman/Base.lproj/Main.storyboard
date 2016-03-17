@@ -51,6 +51,7 @@
         <!--Game View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="Hangman" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -208,6 +209,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQZ-id-7Le">
                                                 <rect key="frame" x="185" y="0.0" width="30" height="30"/>
                                                 <state key="normal" title="R"/>
+                                                <connections>
+                                                    <action selector="rPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qsw-P2-oW9"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -225,7 +229,6 @@
                                                 <rect key="frame" x="37" y="0.0" width="30" height="30"/>
                                                 <state key="normal" title="T"/>
                                                 <connections>
-                                                    <action selector="rPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="15O-la-tne"/>
                                                     <action selector="tPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3rS-Do-HL0"/>
                                                 </connections>
                                             </button>
@@ -280,6 +283,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNg-E6-ybX">
+                                <rect key="frame" x="250" y="534" width="71" height="30"/>
+                                <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="startOverPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7iz-CX-ula"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -290,8 +300,10 @@
                             <constraint firstItem="nQc-Xb-hZB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NOO-BI-sYw"/>
                             <constraint firstItem="vdj-sc-u6d" firstAttribute="top" secondItem="nQc-Xb-hZB" secondAttribute="bottom" constant="25" id="fGp-P3-uHp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OpW-mk-I35" secondAttribute="trailing" id="iYA-TC-Zzu"/>
+                            <constraint firstItem="CNg-E6-ybX" firstAttribute="top" secondItem="vdj-sc-u6d" secondAttribute="bottom" constant="35" id="kUI-O2-0nb"/>
                             <constraint firstItem="OpW-mk-I35" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="tA5-3p-eCE"/>
                             <constraint firstItem="OpW-mk-I35" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v6F-S3-dif"/>
+                            <constraint firstItem="vdj-sc-u6d" firstAttribute="leading" secondItem="CNg-E6-ybX" secondAttribute="trailing" constant="-139" id="xle-cW-8fp"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -309,6 +321,7 @@
                         <outlet property="f" destination="Nhs-Tx-Bjh" id="KLP-Bn-hVd"/>
                         <outlet property="g" destination="QiQ-fR-j9E" id="2fF-Yw-1NF"/>
                         <outlet property="h" destination="FdN-ba-lZo" id="IZa-aw-s91"/>
+                        <outlet property="hangmanImage" destination="nQc-Xb-hZB" id="1dn-ll-hrM"/>
                         <outlet property="i" destination="dZG-Tr-ovP" id="o9w-Rf-0la"/>
                         <outlet property="j" destination="ctX-z2-cQj" id="CWu-ad-2YO"/>
                         <outlet property="k" destination="cjx-Z0-h00" id="rxx-DH-hjm"/>
@@ -320,6 +333,7 @@
                         <outlet property="q" destination="gte-vK-mA7" id="imE-Fj-XT9"/>
                         <outlet property="r" destination="JQZ-id-7Le" id="xH7-Yh-fTe"/>
                         <outlet property="s" destination="3tD-wE-dCm" id="ZRL-G8-vq9"/>
+                        <outlet property="startOverButton" destination="CNg-E6-ybX" id="agb-Bc-kvP"/>
                         <outlet property="t" destination="jmN-v5-f2N" id="I0X-47-srS"/>
                         <outlet property="u" destination="Vhp-sJ-fsD" id="yAr-Sf-SfG"/>
                         <outlet property="v" destination="gxF-XX-eCL" id="3E2-7q-lcC"/>
@@ -330,7 +344,6 @@
                         <outlet property="z" destination="EjL-d7-jI5" id="bca-P8-owG"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1443" y="354"/>
         </scene>
